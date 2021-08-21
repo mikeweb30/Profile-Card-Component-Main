@@ -1,0 +1,85 @@
+ * {
+    box-sizing: border-box;
+    
+}
+body { 
+    background-color:  hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif; 
+    font-size: 18px;
+    font-weight: 700;
+    background-repeat: no-repeat;
+    background-image: url(images/bg-pattern-top.svg),  url(images/bg-pattern-bottom.svg); 
+    background-position: -300px -550px, 550px 400px; 
+    background-repeat: no-repeat;
+   
+}
+section {
+  margin: 0 auto;
+  position: relative;
+}
+h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-right: 1px;
+    line-height: 0;
+  
+}
+h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0;
+
+}
+span {
+    color:  hsl(0, 0%, 59%); 
+    margin-left: 5px;
+}
+
+.container {
+  background-color: white; 
+  text-align: center;
+ margin:  150px auto;   
+  border-radius: 15px;
+  position: relative;
+  width: 350px;
+}
+hr {
+    background-color:  hsl(0, 0%, 59%);
+}
+.crest p {
+    font-size: 0.9rem;
+    color:  hsl(0, 0%, 59%);
+    padding-top: 5px;
+    margin-bottom: 25px;
+}
+.group {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0 24px;
+}
+.group p {
+    color:  hsl(0, 0%, 59%);
+    padding: 10px 0;
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+ .pattern {
+    border-radius: 15px 15px 0 0;
+}
+.victor {
+    border-radius: 50%;
+    max-width: 100%; 
+     margin: -50px auto 0 auto; 
+     border: 5px solid #fff;
+}
+
+ @media screen and (max-width: 968px) {
+    body {
+        background-position: -675px -600px, 190px 250px;
+    }
+ } 
